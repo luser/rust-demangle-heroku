@@ -1,0 +1,10 @@
+[package]
+name = "rustfilt-heroku"
+version = "0.1.0"
+authors = ["Ted Mielczarek <ted@mielczarek.org>"]
+
+[dependencies]
+itertools = "0.5"
+rocket = "0.2.2"
+rocket_codegen = "0.2.2"
+rustc-demangle = "0.1.2"

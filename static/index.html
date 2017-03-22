@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rust symbol demangling</title>
+  </head>
+  <body>
+    <h1>Rust symbol demangling</h1>
+    <form method="POST" action="/api/demangle">
+      <textarea name="symbols" autofocus=true rows=20 cols=100></textarea>
+      <input name="hash" type="checkbox"><label for="hash">Include hash</label>
+      <input type="submit" value="Demangle">
+    </form>
+  </body>
+</html>
